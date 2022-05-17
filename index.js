@@ -28,7 +28,7 @@ function createShoppingList(products){
     });
 
 
-    const productDetails = document.createElement('ul');
+    const productDetails = document.createElement('section');
     productDetails.id = 'product-details';
     main.appendChild(productDetails);
 
